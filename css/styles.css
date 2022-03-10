@@ -1,0 +1,189 @@
+@font-face {
+    font-family: 'Play';
+    src: url('../fonts/Play-Bold.woff2') format('woff2'),
+        url('../fonts/Play-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Bold.woff2') format('woff2'),
+        url('../fonts/Roboto-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Regular.woff2') format('woff2'),
+        url('../fonts/Roboto-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    background-color: #000;
+}
+.container{
+    width: 1583px;
+    margin: 0 auto;
+}
+.nav{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+.logo{
+    font: 700 64px/75px 'Roboto', sans-serif;
+    color: #fff;
+}
+.color{
+    color: #00B3F9;
+}
+.nav .list .list__item{
+    display: inline-block;
+    margin-left: 50px;
+}
+.list__link{
+    font: 700 30px/35px 'Roboto', sans-serif;
+    text-decoration: none;
+    color: #00B3F9;
+}
+.active{
+    color: #fff;
+}
+/* /Header */
+
+/* Main */
+/* Section Hero */
+.hero,
+.about,
+.services,
+.members,
+.footer{
+    background-image: url('../images/main__bgimage.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 996px;
+}
+.hero__title{
+    margin-top: 300px;
+    font: 700 85px/98px 'Play', sans-serif ;
+    width: 788px;
+    float: right;
+    color: #fff;
+
+}
+
+/* About Us */
+.about{
+    background-image: url('../images/ABOUT\ US.png');
+}
+.about__title{
+    font: 700 50px/59px 'Roboto', sans-serif;
+    color:#00B3F9;
+    text-align: center;
+    padding-top: 162px;
+}
+.about__text{
+    font: 400 35px/41px 'Roboto', sans-serif;
+    color: #fff;
+    width: 1078px;
+    margin:82px auto 0 auto ;
+}
+/* /About Us */
+
+/* Services */
+.services{
+    background-image: url('../images/SERVICES.png');
+}
+.service__flex{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 63px;
+}
+.card__title{
+    font: 400 42px/49px 'Roboto', sans-serif
+}
+.card__list--item{
+    margin: 38px 0 0 35px;
+    font: 400 35px/41px 'Roboto', sans-serif;
+    color: #fff;
+}
+.liquid{
+    margin-top: 81px;
+}
+/* /Services */
+
+/* Membership */
+.members{
+    background-image: url('../images/PRICING.png');
+}
+.members__flex{
+    margin-top: 109px;
+}
+.members__title{
+    text-align: center;
+}
+.members__list{
+    list-style: none;
+    margin-left: 0;
+}
+h3.liquid{
+    text-align: left;
+    margin: 0;
+}
+/* Membership */
+
+/* Main */
+
+/* FOOTER */
+.footer{
+    background-image: url('../images/CONTACT.png');
+    height: 547px;
+}
+.footer__flex{
+    display: flex;
+    margin-top: 53px;
+}
+.footer__title{
+    font: 400 36px/42px 'Roboto', sans-serif;
+    width: 416px;
+    color: #fff;
+}
+.footer p.width{
+    width: 460px;
+    margin-top: 33px;
+}
+.footer .color{
+    font: 700 36px/42px 'Roboto', sans-serif;   
+}
+.icons{
+    margin-left: 413px;
+}
+.twitter,
+.instagram{
+    margin-left: 30px;
+}
+.footer__end{
+    font: 400 22px/26px  'Roboto', sans-serif ;
+    color: #fff;
+    text-align: center;
+    margin-top: 75px;
+}
+.footer__end .color{
+    font: 700 22px/26px  'Roboto', sans-serif ;
+}
+/* /fOOTER */
